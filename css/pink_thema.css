@@ -1,0 +1,22 @@
+/*start default thema**/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active,
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus ,
+.dropdown-menu .divider,
+.carousel-indicators .active{
+    background:pink
+}
+
+
+.optionbox .coloroption{
+    
+    border: 4px solid pink;
+}
+
+.dropdown-menu {
+    border-top: 2px solid pink;}
+
+.about h1 span,
+.about h3 span,
+.testmouale span,
+.footer h3{
+    color:pink;}

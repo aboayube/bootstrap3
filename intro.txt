@@ -1,0 +1,143 @@
+بوستراب هو بروتز عمل
+يعمل نظام بوستراب لو محتاج اشياء كثيره من المكتبة
+
+بوستراب لا يعمل بدون jquery
+
+عشان inter exploer
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    مكتبه تخلي الاكس بلورر يفهم html5
+html5shiv.min
+عشان يفهم الاكس بلورر الميديا كويري
+respond.min.js
+
+
+        ----------------start grid system-----------
+container  1-fixed   = > نصف الصفحة
+           2-fluid   = >ملئ الصفحة كاملة
+        لازم داخل الكونتينر 
+row
+grid=>  ياخذ 12 عنصر
+انواع الشاشات
+1-lg => large screen
+2-md => medium screen
+3-sm => small screen
+4-xs => extra screen
+col=>column
+---example--
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">wajeeh</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">ayube</div>
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">aid</div>
+        <div class="col-lg-4 col-md-6 col-sm-12  col-xs-6">samia</div>
+        </div>
+    </div>
+            ---end example----    
+
+hidden-md =>اخفائه فقط في الشاشة المعينة
+visible-lg =>اضهار في شاشة معينة فقط
+            
+    --------------------------
+    clearfix=>لالغاء floatتاثيرة
+col-lg-offset-3=>تحريك 3 للعنصر 
+col-sm-push-8 =>يتقدم للامام بمقدار 8
+col-sm-pull-4=>سحب للخلف 4            
+لجعل فقط السحب لمساحة معينه            
+col-md-push-0
+col-md-pull-0
+------------------------
+لازم تحط row عندما تريد تقسيم col nessting
+----examplr---
+  <div class="col-md-12">
+  <div class="row">
+  <div class="col-md-3">
+  <div class="col-md-9"></div></div></div></div>
+  ---------------end example----------
+  ---------------------------------------------------------
+  lead => كلاس لخروج عن تنسيق البوستراب
+  img-responsive=> كلاس لصوره عشان صوره تكون مناسبة
+  center-block =>يعرض العنصر في المنتصف كلاس 
+  
+  
+  navbar  => 1-default
+            2-inverse
+ navbar-fixed-top   يبقي ثابت في الاعلي        لازم يكون بادنج 70px
+  navbar-fixed-bottom  يبقي ثابت في اسفل   
+  active  =>لون مميز
+  divider =خط يفصل مثلhr
+  navbar-right =>يكون علي يمين
+  text-center=>توسيط النص
+  list-unstyled=>الغاء النقاط في قوائم
+  btn btn-info
+  btn btn-succes
+  btn btn-primary
+  btn btn-danger
+  text-primary
+  img-circle=>جعل الصورة دائرية
+ form-inline
+ form-control
+ btn-lg
+ input-lg
+ progress =>progress-bar ->info/primary/danger
+  <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80"
+                     aria-valuemin="0" aria-valuemax="100" style="width: 80%">test</div>
+        active =>خلية متحرك
+ progress-bar-striped=>نظام شرايط
+ في ميديا
+ 768px=>مقاس جوالات وتابلت
+@media(max-width:768px){
+  
+}
+//بعد 768 نفذ
+@media(min-width:768px){
+    
+}
+/*يعني نفذ بين هذا الكود*/
+ @media(min-width:768px)and (max-width:991){
+    
+}
+ شاشات متوسطة
+ 991-1199
+ شاشات كبيره
+ 1199-1200
+ 
+ 
+ 
+ 
+ 
+ h1 لازم فقط يستخدم مرة واحده
+ 
+ width="1920px" height="600" طول المضل للصور
+ 
+ section يجيب ان يضع فيه راسh1
+ div لو انت لدكش تحط راس اعمله
+ 
+ مكتبة الواو
+ data-wow-duration= يعني مده تنفيذ الحدث لازم بثواني
+  data-wow-delay مده التاخير
+ data-wow-iteration=عدد مرات التكرار
+ data-wow-offset=عندما يكون قيمه السكرول كذا ينفذ التاثير
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    $('html').niceScroll(); لاستدعاء سكرول جميل
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
